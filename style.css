@@ -1,0 +1,21 @@
+body {
+    background-color:whitesmoke;
+    font-family:sans-serif ;
+    padding:20px
+}
+.overview {
+    background-color: white;
+    margin: auto;
+}
+h1, h2, p {
+    text-align: center;
+}
+
+/*Hammer Park Karte*/
+iframe {
+    display: block;
+    margin: 0 auto;
+    border: 0;
+}
+
+/*Photo Gallery*/
