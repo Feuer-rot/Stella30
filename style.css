@@ -19,7 +19,7 @@ body {
 }
 
 .header-background {
-    background: url('colorful\ two-tone\ gradient\ rose\ texture_1098352.jpg') no-repeat center center;
+    background: url('no') no-repeat center center;
     background-size: cover;
     padding: 20px;
     text-align: center;
@@ -60,12 +60,11 @@ h2 {
 }
 
 .logo-container img {
-    max-width: 150px; /* Feste maximale Breite für das Logo */
-    width: 100%; /* Stellt sicher, dass das Logo responsiv bleibt */
+    max-width: 150px;
+    width: 100%;
     height: auto;
 }
 
-/* Hammer Park Karte */
 iframe {
     display: block;
     margin: 0 auto;
@@ -76,7 +75,7 @@ iframe {
     position: relative;
     width: 100%;
     height: 0;
-    padding-bottom: 56.25%; /* Verhältnis 16:9 */
+    padding-bottom: 112.5%; /* Double the height */
 }
 
 .map-container iframe {
