@@ -1,14 +1,44 @@
 body {
-    background-color:whitesmoke;
+    background-color:white
     font-family:sans-serif ;
     padding:20px
 }
 .overview {
     background-color: white;
     margin: auto;
-}
-h1, h2, p {
+    padding: 20px
+}c
+
+.header-background {
+    background: url('Blob.png') no-repeat center center;
+    background-size: cover;
+    padding: 20px;
     text-align: center;
+}
+
+.header-background h1,
+.header-background .logo-container,
+.header-background p {
+    margin: 10px 0;
+}
+
+h2, p {
+    text-align: center;
+}
+h1 {
+     text-align: center;
+    font-weight: bold;
+    font-size: x-large;
+}    
+    
+.logo-container {
+    text-align: center;
+    margin: 20px 0;
+}
+.logo-container img {
+    max-width: 150px; /* Feste maximale Breite für das Logo */
+    width: 100%; /* Stellt sicher, dass das Logo responsiv bleibt */
+    height: auto;
 }
 
 /*Hammer Park Karte*/
@@ -18,4 +48,17 @@ iframe {
     border: 0;
 }
 
-/*Photo Gallery*/
+.map-container {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%; /* Verhältnis 16:9 */
+}
+.map-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
